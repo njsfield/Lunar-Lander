@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 560" style="enable-background:new 0 0 960 560;" xml:space="preserve">
+<filter  id="AI_GaussianBlur_7">
+	<feGaussianBlur  stdDeviation="7"></feGaussianBlur>
+</filter>
+<g id="right-light">
+	<g id="right_lights_11_" style="filter:url(#AI_GaussianBlur_7);">
+		<path style="fill:#FFFFFF;" d="M765.6,245.9h-52.2c-16.4,0-29.7-13.3-29.7-29.7v-22.7c0-16.4,13.3-29.7,29.7-29.7h52.2
+			c16.4,0,29.7,13.3,29.7,29.7v22.7C795.3,232.6,782,245.9,765.6,245.9z"/>
+	</g>
+	<g id="right_lights_9_" style="filter:url(#AI_GaussianBlur_7);">
+		<path style="fill:#FFFFFF;" d="M765.6,245.9h-52.2c-16.4,0-29.7-13.3-29.7-29.7v-22.7c0-16.4,13.3-29.7,29.7-29.7h52.2
+			c16.4,0,29.7,13.3,29.7,29.7v22.7C795.3,232.6,782,245.9,765.6,245.9z"/>
+	</g>
+	<path id="right_lights_5_" style="fill:#FFFFFF;" d="M759.6,239.9h-40.2c-16.4,0-29.7-13.3-29.7-29.7v-13.9
+		c0-16.4,13.3-29.7,29.7-29.7h40.2c16.4,0,29.7,13.3,29.7,29.7v13.9C789.3,226.6,776,239.9,759.6,239.9z"/>
+	<rect id="empty_box__x28_use_for_every_layer_12_" style="opacity:0;" width="960" height="560"/>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

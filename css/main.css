@@ -1,0 +1,103 @@
+/*-- base styles --*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/*-------------------*/
+/*--- lunar module --*/
+/*-------------------*/
+
+.lunar-container {
+    height: 85vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.lunar-module {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 62%;
+    height: 100%;
+    width: auto;
+}
+
+
+/*---parts-----*/
+
+.stars {
+    background-image: url("/img/lunar-module/stars.svg");
+}
+
+.dirt-dark {
+    background-image: url("/img/lunar-module/dirt-dark.svg");
+}
+
+.dirt-light {
+    background-image: url("/img/lunar-module/dirt-light.svg");
+}
+
+.light-poles {
+    background-image: url("/img/lunar-module/light-poles.svg");
+}
+
+.left-light {
+    background-image: url("/img/lunar-module/left-light.svg");
+}
+
+.right-light {
+    background-image: url("/img/lunar-module/right-light.svg");
+}
+
+.module-dark {
+    background-image: url("/img/lunar-module/module-dark.svg");
+}
+
+.module-half-left {
+    background-image: url("/img/lunar-module/module-half-left.svg");
+}
+
+.module-half-right {
+    background-image: url("/img/lunar-module/module-half-right.svg");
+}
+
+.left-shadow {
+    background-image: url("/img/lunar-module/left-shadow.svg");
+}
+
+.right-shadow {
+    background-image: url("/img/lunar-module/right-shadow.svg");
+}
+
+
+
+/*---animation-----*/
+
+.light-one {
+    opacity: 0;
+    animation: light-up 1s ease-in 1s forwards;
+}
+
+.light-two {
+    opacity: 0;
+    animation: light-up 1s ease-in 1.4s forwards;
+}
+
+
+
+@keyframes light-up {
+    0%, 90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+

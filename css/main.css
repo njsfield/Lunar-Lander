@@ -32,48 +32,24 @@
 
 /*---parts-----*/
 
-.stars {
-    background-image: url("/img/lunar-module/stars.svg");
+.lunar-dirt-dark {
+    background-color: #191717;
 }
 
-.dirt-dark {
-    background-image: url("/img/lunar-module/dirt-dark.svg");
+.lunar-dirt-light {
+    background-color: #232221;
 }
 
-.dirt-light {
-    background-image: url("/img/lunar-module/dirt-light.svg");
+.lunar-1 {
+    background-image: url("/img/lunar-module/lunar-1.svg");
 }
 
-.light-poles {
-    background-image: url("/img/lunar-module/light-poles.svg");
+.lunar-2 {
+    background-image: url("/img/lunar-module/lunar-2.svg");
 }
 
-.left-light {
-    background-image: url("/img/lunar-module/left-light.svg");
-}
-
-.right-light {
-    background-image: url("/img/lunar-module/right-light.svg");
-}
-
-.module-dark {
-    background-image: url("/img/lunar-module/module-dark.svg");
-}
-
-.module-half-left {
-    background-image: url("/img/lunar-module/module-half-left.svg");
-}
-
-.module-half-right {
-    background-image: url("/img/lunar-module/module-half-right.svg");
-}
-
-.left-shadow {
-    background-image: url("/img/lunar-module/left-shadow.svg");
-}
-
-.right-shadow {
-    background-image: url("/img/lunar-module/right-shadow.svg");
+.lunar-3 {
+    background-image: url("/img/lunar-module/lunar-3.svg");
 }
 
 

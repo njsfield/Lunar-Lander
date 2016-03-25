@@ -11,7 +11,7 @@
 /*-------------------*/
 
 .lunar-container {
-    height: 85vh;
+    height: 100vh;
     overflow: hidden;
     position: relative;
 }
@@ -24,7 +24,7 @@
     bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 62%;
+    background-position: 60%;
     height: 100%;
     width: auto;
 }

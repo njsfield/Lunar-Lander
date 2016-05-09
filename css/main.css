@@ -1,79 +1,96 @@
-/*-- base styles --*/
-
 * {
-    box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
+.container {
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  background: black;
+  text-align: center;
+  font-size: 2rem;
+  color: white; }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
 
+.one {
+  width: 100%;
+  background: white;
+  text-align: center;
+  font-size: 1rem;
+  color: black; }
 
-/*-------------------*/
-/*--- lunar module --*/
-/*-------------------*/
+.two, .three, .four {
+  width: 100%;
+  background: grey;
+  text-align: center;
+  font-size: 1rem;
+  color: blue; }
+  @media screen and (min-width: 769px) {
+    .two, .three, .four {
+      float: left;
+      width: 32.20339%; } }
 
 .lunar-container {
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-}
-
-.lunar-module {
+  height: 100vh;
+  overflow: hidden;
+  position: relative; }
+  .lunar-container .lunar-module {
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
+    left: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60%;
-    height: 100%;
-    width: auto;
-}
-
+    height: auto;
+    width: 100%; }
 
 /*---parts-----*/
-
 .lunar-dirt-dark {
-    background-color: #191717;
-}
+  background-color: #191717; }
 
 .lunar-dirt-light {
-    background-color: #232221;
-}
+  background-color: #4e4848; }
 
 .lunar-1 {
-    background-image: url("/img/lunar-module/lunar-1.svg");
-}
+  background-image: url("/img/lunar-module/lunar-1.svg"); }
 
 .lunar-2 {
-    background-image: url("/img/lunar-module/lunar-2.svg");
-}
+  background-image: url("/img/lunar-module/lunar-2.svg"); }
 
 .lunar-3 {
-    background-image: url("/img/lunar-module/lunar-3.svg");
-}
-
-
+  background-image: url("/img/lunar-module/lunar-3.svg"); }
 
 /*---animation-----*/
-
 .light-one {
-    opacity: 0;
-    animation: light-up 1s ease-in 1s forwards;
-}
+  opacity: 0;
+  -webkit-animation: light-up 1s ease-in 1s forwards;
+  -moz-animation: light-up 1s ease-in 1s forwards;
+  animation: light-up 1s ease-in 1s forwards; }
 
 .light-two {
-    opacity: 0;
-    animation: light-up 1s ease-in 1.4s forwards;
-}
+  opacity: 0;
+  -webkit-animation: light-up 1s ease-in 1.4s forwards;
+  -moz-animation: light-up 1s ease-in 1.4s forwards;
+  animation: light-up 1s ease-in 1.4s forwards; }
 
-
-
+@-webkit-keyframes light-up {
+  0%, 90% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes light-up {
+  0%, 90% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 @keyframes light-up {
-    0%, 90% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+  0%, 90% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
+/*# sourceMappingURL=main.css.map */

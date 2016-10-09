@@ -56,13 +56,13 @@
   background-color: #4e4848; }
 
 .lunar-1 {
-  background-image: url("/img/lunar-module/lunar-1.svg"); }
+  background-image: url("../img/lunar-module/lunar-1.svg"); }
 
 .lunar-2 {
-  background-image: url("/img/lunar-module/lunar-2.svg"); }
+  background-image: url("../img/lunar-module/lunar-2.svg"); }
 
 .lunar-3 {
-  background-image: url("/img/lunar-module/lunar-3.svg"); }
+  background-image: url("../img/lunar-module/lunar-3.svg"); }
 
 /*---animation-----*/
 .light-one {
@@ -78,19 +78,17 @@
   animation: light-up 1s ease-in 1.4s forwards; }
 
 @-webkit-keyframes light-up {
-  0%, 90% {
+  0%, 70% {
     opacity: 0; }
   100% {
     opacity: 1; } }
 @-moz-keyframes light-up {
-  0%, 90% {
+  0%, 70% {
     opacity: 0; }
   100% {
     opacity: 1; } }
 @keyframes light-up {
-  0%, 90% {
+  0%, 70% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
-/*# sourceMappingURL=main.css.map */
